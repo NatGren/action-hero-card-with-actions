@@ -3,10 +3,16 @@ html {
   color: #333;
 }
 
+li {
+  list-style: none;
+  display: inline-block;
+}
+
 .action-card {
   border-radius: .3em;
   overflow: hidden;
   box-shadow: 0 .1em .4em rgba(0, 0, 0, .5);
+  position: relative;
 }
 
 .action-btn {
@@ -33,4 +39,10 @@ html {
   filter: none;
   box-shadow: 0 .1em .3em #000;
   color: #555;
+}
+
+.action-tools-top {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
